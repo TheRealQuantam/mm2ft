@@ -1,0 +1,5 @@
+{
+	"parent": "mm2rm2ft.ftcfg",
+	
+	"boss_track_tbl_offs": 0x7d2dc,
+}

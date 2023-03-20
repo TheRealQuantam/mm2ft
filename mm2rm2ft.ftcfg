@@ -1,0 +1,84 @@
+{
+	"is_parent": true,
+	
+	"module": "capcom2",
+	
+	"bank_size": 0x2000,
+	"num_banks": 0x40,
+	
+	"track_map_tbl_offs": 0x30b50,
+	"max_tracks": 0x80,
+	"track_names": [
+		"FlashMan", // 0
+		"WoodMan", // 1
+		"CrashMan", // 2
+		"HeatMan", // 3
+		"AirMan", // 4
+		"MetalMan", // 5
+		"QuickMan", // 6
+		"BubbleMan", // 7
+		"Wily1", // 8
+		"Wily3", // 9
+		"StageSelected", // a
+		"Boss", // b
+		"StageSelect", // c
+		"Title", // d
+		"Intro", // e
+		"GameOver", // f
+		"Password", // 10
+		"WilyCastle", // 11
+		"WilyCapsule", // 12
+		"Ending", // 13
+		"Credits", // 14
+		"StageClear", // 15
+		"GameClear", // 16
+		"GetWeapon", // 17
+		"Wily2", // 18
+		"Wily4", // 19
+		"Wily5", // 1a
+		"Wily6", // 1b
+	],
+	"sfx_tracks": [[0x21, 0x43]],
+	"unused_tracks": [[0x1c, 0x21], [0x43, 0x80]],
+
+	// "boss_track_tbl_offs" is different between MM2 and RM2
+	"boss_track_names": [
+		"HeatMan", // 0
+		"AirMan", // 1
+		"WoodMan", // 2
+		"BubbleMan", // 3
+		"QuickMan", // 4
+		"FlashMan", // 5
+		"MetalMan", // 6
+		"CrashMan", // 7
+		"Wily1", // 8
+		"Wily2", // 9
+		"Wily3", // a
+		"Wily4", // b
+		"Wily5", // c
+		"Wily6", // d
+		"Refights", // e
+	],
+		
+	"native": {
+		"track_tbl_offs": 0x30a50,
+		"num_tracks": 0x80,
+
+		"src_bank_idx": 0x18,
+		"free_ranges": [[0, null]],
+		"copy_ranges": [],
+	},
+
+	"ft": {
+		"src_bank_idx": 0x1e,
+		"free_ranges": [[0, null]],
+		"copy_ranges": [],
+
+		"dpcm_ranges": [[0x3f, 0xe000, 0x1300, 0x1900]],
+	},
+
+	"free_unique_ranges": [[0x1f, 0xa000, 0x1080, null]],
+	
+	"free_banks": [[0x20, 0x3e]],
+	"free_bank_base": 0xa000,
+}
